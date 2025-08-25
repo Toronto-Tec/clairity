@@ -5,7 +5,7 @@ global.ownerNumber = [`${global.owner}`,'no2','no3'] // no owner yang dapat meng
 
 //watermark 
 global.packname = `${botname}` // bebas ubah ${botname} langsung hapus jangan isi kaya gini global.packname =  `${clairity}` itu bakal error langsung aja global.packname = `clairity`
-global.author = `Dibuat Oleh ${ownername}` // bebas ubah asal sesuai panduan kaya di atas
+global.author = `DLesta ${ownername}` // bebas ubah asal sesuai panduan kaya di atas
 global.idch = '120363418582467615@newsletter' // ubah idchmu
 global.namech = 'Treplex Codevers' // ubah namachnya
 global.imgUrl = "https://files.catbox.moe/dv9ree.jpg" // ubah image yg ada di reply botnya
@@ -107,3 +107,4 @@ fs.watchFile(file, () => {
     delete require.cache[file];
     require(file);
 });
+
